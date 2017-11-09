@@ -1,14 +1,14 @@
-'use strict';
+"use strict";
 
 var cakeUtilities = {
-isBestCake = function(type){
-return (type == 'chocolate cake');
-}
+	isBestCake: function(type){
+		return type === "chocolate cake";
+	},
 };
 
 var myCake = {
-type: 'carrot cake',
-size: 8
+	type: "carrot cake",
+	size: 8,
 };
 
 console.log(cakeUtilities.isBestCake(myCake));

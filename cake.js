@@ -11,4 +11,4 @@ var myCake = {
 	size: 8,
 };
 
-console.log(cakeUtilities.isBestCake(myCake));
+console.log(cakeUtilities.isBestCake(myCake.type));

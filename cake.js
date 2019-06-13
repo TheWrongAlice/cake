@@ -6,6 +6,7 @@ return (type == 'chocolate cake');
 }
 };
 
+# I am a comment
 var myCake = {
 type: 'carrot cake',
 size: 8
